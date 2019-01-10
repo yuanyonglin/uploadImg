@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/upload?serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+
+  mvc:
+    view:
+      prefix: /webapp/
+      suffix: .html
+    static-path-pattern: /resources/**，
+
+
+
+  spring:
+    servlet:
+      multipart:
+        enabled: true
+        max-file-size: 10Mb
+        max-request-size: 100Mb
+
+
+
