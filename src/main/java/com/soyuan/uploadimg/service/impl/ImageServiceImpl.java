@@ -28,7 +28,7 @@ public class ImageServiceImpl implements ImageService {
     }
 
     @Override
-    public List<Image> queryAll() {
+    public String queryAll() {
         return imageMapper.queryAll();
     }
 }

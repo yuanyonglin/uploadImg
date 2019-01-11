@@ -13,9 +13,7 @@ import java.util.List;
 
 public interface ImageMapper {
 
-    @Insert("insert into image(id,ImageURL,ImageName,ImageDate,ImageOriginalName,ImageType) values (#{id},#{imageURL},#{imageName},#{imageDate},#{imageOriginalName},#{imageType})")
     public void save (Image image);
 
-    @Select("select ImageURL from image order by ImageDate desc")
-    public List<Image> queryAll();
+    public String queryAll();
 }

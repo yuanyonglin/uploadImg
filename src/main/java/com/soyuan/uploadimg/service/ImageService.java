@@ -11,5 +11,5 @@ import java.util.List;
 public interface ImageService {
     public void save(Image image);
 
-    public List<Image> queryAll();
+    public String  queryAll();
 }
