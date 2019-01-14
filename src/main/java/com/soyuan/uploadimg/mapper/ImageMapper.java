@@ -4,16 +4,17 @@ import com.soyuan.uploadimg.pojo.Image;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 
-import java.util.List;
-
 /**
  * @ Author     ：yuanyl.
  * @ Date       ：Created in 14:21 2019/1/7
  */
 
 public interface ImageMapper {
+    // @Insert(" insert into image(id,ImageURL,ImageName,ImageDate,ImageOriginalName,ImageType) values (#{id},#{imageURL},#{imageName},#{imageDate},#{imageOriginalName},#{imageType})")
+     void save (Image image);
 
-    public void save (Image image);
+     String queryAll();
 
-    public String queryAll();
+    // @Select("select * from image where id = #{id};")
+     Image queryById(Image image);
 }

@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
 
 /**
  * @ Author     ：yuanyl.
@@ -31,4 +30,10 @@ public class ImageServiceImpl implements ImageService {
     public String queryAll() {
         return imageMapper.queryAll();
     }
+
+    @Override
+    public Image queryById(Image image) {
+        return imageMapper.queryById(image);
+    }
+
 }

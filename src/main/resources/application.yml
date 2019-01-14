@@ -1,15 +1,19 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/upload?serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/upload?serverTimezone=GMT%2B8&useSSL=false
     username: root
     password: 123456
+
 
   mvc:
     view:
       prefix: /webapp/
       suffix: .html
-    static-path-pattern: /staticFilesUploads/images/20190110/**
+   # static-path-pattern: /staticFilesUploads/images/20190110/**
+    spring:
+      resources:
+        static:
 
   spring:
     servlet:
@@ -17,19 +21,15 @@ spring:
         enabled: true
         max-file-size: 10Mb
         max-request-size: 100Mb
-  resources:
-    static-locations: file:E:/idea-workspace/uploadimg/src/main/resources/staticFilesUploads/images/20190110/
-
-upload:
-  path: E:/idea-workspace/uploadimg/src/main/resources/staticFilesUploads/images/
+ # resources:
+  #  static-locations: file:E:/idea-workspace/uploadimg/src/main/resources/staticFilesUploads/images/20190110/
 
 
+#mybatis:
+ # mapper-locations: classpath*:/com/soyuan/uploadimg/mapper/**/*.xml
+  #type-aliases-package: com.soyuan.uploadimg.pojo
 
-  #file:E:/idea-workspace/uploadimg/src/main/resources/staticFilesUploads/images/20190108
-  #classpath:staticFilesUploads/images/
-  #/staticFilesUploads/images/20190108/**
-  #jackson:
-  #    date-format: yyyy-MM-dd
-  #    time-zone: GMT+8
-  #    serialization:
-  #      write-dates-as-timestamps: false
+mybatis:
+  type-aliases-package: com.soyuan.uploadimg.pojo
+  mapper-locations: classpath*:mybatis/mapper/*Mapper.xml
+  config-location: classpath:mybatis/mybatis-config.xml
