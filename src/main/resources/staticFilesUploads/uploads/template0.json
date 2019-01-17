@@ -1,0 +1,229 @@
+<div name="template0" class="sy-template" style="width:100%;height:100%;background:#102e45 url(/api/staticFilesUploads/images/20181213/1544672568237823.png) center top no-repeat;background-size:100%;" jsNeeded="carousel,scroll" cssNeeded="carousel,scroll" >
+<div class="sy-text sy-draggable" data-type="text" style="overflow: hidden; width: 601.984px; height: 72.3125px; line-height: 72.3125px; color: rgb(255, 255, 255); font-size: 26px; position: absolute; top: 11.2969px; left: 657.01px; font-weight: 500; font-family: &quot;Microsoft YaHei&quot;; text-align: center;z-index:1" id="sy-text0">
+	<p style="height:100%;">我是标题
+	</p>
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="width: 6px; height: 17px; position: absolute; top: 115px; left: 62px;z-index:1" id="sy-image0">
+	<img src="/api/staticFilesUploads/images/20181206/1544079821978820.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 84.6458px; height: 22.9844px; line-height: 22.9844px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; top: 112.318px; left: 67.3229px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text1">
+	<p style="height:100%;">我是标题
+	</p>
+</div>
+<div class="sy-eselement sy-draggable template-chart" charttype="pie" data-type="chart" style="z-index:1;width: 383.969px; height: 245.313px; padding: 5px; -webkit-tap-highlight-color: transparent; user-select: none; position: absolute; top: 155.042px; left: 59.9792px;" id="pie4_child0">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 6px; height: 17px; position: absolute; top: 420.5px; left: 62px;" id="sy-image1">
+	<img src="/api/staticFilesUploads/images/20181206/1544079821978820.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 72.625px; height: 28.3125px; line-height: 28.3125px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; top: 415px; left: 73px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text2">
+	<p style="height:100%;">我是标题
+	</p>
+</div>
+<div class="sy-eselement sy-draggable template-chart" charttype="pie" data-type="chart" style="z-index:1;width: 281.328px; height: 262.641px; padding: 5px; -webkit-tap-highlight-color: transparent; user-select: none; position: absolute; top: 438.521px; left: 0px; z-index: 0;" id="pie5_child1">
+</div>
+<div class="sy-eselement sy-draggable template-chart" charttype="bar" data-type="chart" style="z-index:1;width: 321.323px; height: 311.98px; padding: 5px; -webkit-tap-highlight-color: transparent; user-select: none; position: absolute; top: 420.396px; left: 262.854px;" id="bar3_child0">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 6px; height: 17px; position: absolute; top: 719px; left: 62px;" id="sy-image2">
+	<img src="/api/staticFilesUploads/images/20181206/1544079821978820.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 83.3333px; height: 24.3333px; line-height: 24.3281px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; top: 715.047px; left: 67.4115px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text3">
+	<p style="height:100%;">我是标题
+	</p>
+</div>
+<div class="sy-eselement sy-draggable template-chart" charttype="bar" data-type="chart" style="z-index:1;width: 539.989px; height: 299.995px; padding: 5px; -webkit-tap-highlight-color: transparent; user-select: none; position: absolute; top: 743.984px; left: 23.4688px;" id="bar4_child1">
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="overflow: hidden; width: 115.281px; height: 21.625px; line-height: 21.625px; color: rgb(209, 199, 56); font-size: 24px; position: absolute; top: 155px; left: 650px; font-weight: 600; font-family: &quot;Microsoft YaHei&quot;; text-align: center; z-index: 2;" id="sy-text4">
+	<p style="height:100%;">667,800
+	</p>
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="overflow: hidden; width: 108.641px; height: 22.9688px; line-height: 22.9688px; color: rgb(209, 199, 56); font-size: 24px; position: absolute; top: 155px; left: 900px; font-weight: 600; font-family: &quot;Microsoft YaHei&quot;; text-align: center; z-index: 2;" id="sy-text5">
+	<p style="height:100%;">667,800
+	</p>
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="overflow: hidden; width: 100.641px; height: 24.3125px; line-height: 24.3281px; color: rgb(209, 199, 56); font-size: 24px; position: absolute; top: 155px; left: 1150px; font-weight: 600; font-family: &quot;Microsoft YaHei&quot;; text-align: center; z-index: 2;" id="sy-text6">
+	<p style="height:100%;">667,800
+	</p>
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="width: 181px; height: 32px; position: absolute; top: 150px; left: 644.99px; z-index: 1;" id="sy-image3">
+	<img src="/api/staticFilesUploads/images/20181210/1544411630842449.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 181px; height: 32px; position: absolute; top: 150px; left: 885px;" id="sy-image4">
+	<img src="/api/staticFilesUploads/images/20181210/1544411630842449.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="width: 181px; height: 32px; position: absolute; top: 150px; left: 1130.42px; z-index: 1;" id="sy-image5">
+	<img src="/api/staticFilesUploads/images/20181210/1544411630842449.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-map sy-draggable template-map" charttype="map" data-type="map" style="width: 1233.3px; height: 727.969px; padding: 5px; -webkit-tap-highlight-color: transparent; user-select: none; position: absolute; top: 190.422px; left: 338.781px; z-index: 0;" id="map1_child0" dataNeed="china">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="width: 713.323px; height: 400px; position: absolute; top: 662.656px; left: 616.255px; z-index: 0;" id="sy-image6">
+	<img src="/api/staticFilesUploads/images/20181210/1544411630842570.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 6px; height: 17px; position: absolute; top: 115px; left: 1450px;" id="sy-image7">
+	<img src="/api/staticFilesUploads/images/20181206/1544079821978820.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 76.6613px; height: 21.6563px; line-height: 21.6563px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; top: 113.771px; left: 1458.44px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text7">
+	<p style="height:100%;">我是标题
+	</p>
+</div>
+<div class="sy-eselement sy-draggable template-chart" charttype="bar" data-type="chart" style="z-index:1;width: 435.219px; height: 254.609px; padding: 5px; -webkit-tap-highlight-color: transparent; user-select: none; position: absolute; top: 134.099px; left: 1456.73px; z-index: 0;" id="bar3_child2">	
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 6px; height: 17px; position: absolute; top: 420.5px; left: 1450px;" id="sy-image8">
+	<img src="/api/staticFilesUploads/images/20181206/1544079821978820.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 75.3333px; height: 24.3333px; line-height: 24.3281px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; top: 416.979px; left: 1459.88px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text8">
+	<p style="height:100%;">我是标题
+	</p>
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 72.6667px; height: 20.3333px; line-height: 20.3281px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; top: 716.12px; left: 1462.29px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text9">
+	<p style="height:100%;">我是标题
+	</p>
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 6px; height: 17px; position: absolute; top: 719px; left: 1450px;" id="sy-image9">
+	<img src="/api/staticFilesUploads/images/20181206/1544079821978820.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 40.6563px; height: 22px; line-height: 19px; color: rgb(133, 136, 179); font-size: 18px; position: absolute; top: 760px; left: 1452.02px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text10">
+	<p style="height:100%;">名次
+	</p>
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 39.3125px; height: 22px; line-height: 21.6563px; color: rgb(133, 136, 179); font-size: 18px; position: absolute; top: 760px; left: 1520px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text11">
+	<p style="height:100%;">名称
+	</p>
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 106px; height: 22px; line-height: 24.3125px; color: rgb(133, 136, 179); font-size: 18px; position: absolute; top: 758.656px; left: 1680px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text12">
+	<p style="height:100%;">产值（/万）
+	</p>
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 88.6563px; height: 22px; line-height: 20.3125px; color: rgb(133, 136, 179); font-size: 18px; position: absolute; top: 760px; left: 1800px; font-weight: 400; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text13">
+	<p style="height:100%;">增值（%）
+	</p>
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 242px; height: 24px; position: absolute; top: 113.401px; left: 154.964px;" id="sy-image10">
+	<img src="/api/staticFilesUploads/images/20181210/1544413967658812.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 242px; height: 24px; position: absolute; top: 418.167px; left: 151.786px;" id="sy-image11">
+	<img src="/api/staticFilesUploads/images/20181210/1544413967658812.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 242px; height: 24px; position: absolute; top: 717.193px; left: 151.646px;" id="sy-image12">
+	<img src="/api/staticFilesUploads/images/20181210/1544413967658812.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 242px; height: 24px; position: absolute; top: 113.802px; left: 1539.88px;" id="sy-image13">
+	<img src="/api/staticFilesUploads/images/20181210/1544413967658812.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 242px; height: 24px; position: absolute; top: 417.974px; left: 1541.41px;" id="sy-image14">
+	<img src="/api/staticFilesUploads/images/20181210/1544413967658812.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-image sy-draggable" data-type="image" style="z-index:1;width: 242px; height: 24px; position: absolute; top: 716.474px; left: 1541.51px;" id="sy-image15">
+	<img src="/api/staticFilesUploads/images/20181210/1544413967658812.png" width="100%" height="100%" draggable="false">
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 76.6406px; height: 27px; line-height: 26.9688px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; top: 183.583px; left: 666.135px; font-weight: 500; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text14">
+	<p style="height:100%;">本月总额
+	</p>
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 96.6563px; height: 27px; line-height: 24.3281px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; top: 186.089px; left: 890.349px; font-weight: 500; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text15">
+	<p style="height:100%;">本周总额
+	</p>
+</div>
+<div class="sy-text sy-draggable" data-type="text" style="z-index:1;overflow: hidden; width: 90px; height: 27px; line-height: 25.6563px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; top: 185.677px; left: 1143.77px; font-weight: 500; font-family: &quot;Microsoft YaHei&quot;; text-align: center;" id="sy-text16">
+	<p style="height:100%;">当天总额
+	</p>
+</div>
+<div class="wlh-carousel-box sy-draggable sy-carousel" data-value="1" data-time="3000" style="position: absolute; top: 467.992px; left: 1461.41px; width: 400.732px; height: 222.439px;" data-type="carousel" id="sy-carousel0" data-interval="182">
+			<ul class="wlh-carousel wlh-clear sy-carousel0" style="width: 1202.16px; left: 0px;">
+				<li style="height: 100%; width: 400.719px;">
+					<img src="/api/staticFilesUploads/images/20181210/1544412614415342.png" alt="图片1" draggable="false">
+				</li>
+				<li style="height: 100%; width: 400.719px;">
+					<img src="/api/staticFilesUploads/images/20181210/1544412614415342.png" alt="图片2" draggable="false">
+				</li>
+				<li style="height: 100%; width: 400.719px;">
+					<img src="/api/staticFilesUploads/images/20181210/1544412614415342.png" alt="图片3" draggable="false">
+				</li>
+			</ul>
+			<div class="wlh-carousel-prev" id="sy-carousel0-prev">
+			</div>
+			<div class="wlh-carousel-next" id="sy-carousel0-next">
+			</div>
+			<div class="wlh-carousel-bottom">
+				<span class="wlh-carousel-bottom-span-selected" data-index="0">
+				</span>
+				<span data-index="1" class="">
+				</span>
+				<span data-index="2" class="">
+				</span>
+			</div>
+</div>
+<div style="width: 409px; height: 235px; overflow: hidden; box-sizing: border-box; position: absolute; top: 791px; left: 1465px;" class="wlh-scroll sy-draggable sy-scroll" data-type="scroll" data-speed="400" data-mousepause="true" data-ispaused="true" data-showitems="5" data-direction="up" id="sy-scroll0" data-value="0" data-series="true" data-pause="3000" data-interval="544">
+			<ul style="width: 100%; color: rgb(133, 136, 179); font-size: 18px; text-align: center; font-family: &quot;Microsoft YaHei&quot;; position: absolute; margin: 0px; top: 0px;">
+				<li data-index="2" style="width: 100%; height: 47px; line-height: 47px; background-color: rgba(0, 0, 0, 0);">
+					<span>3
+					</span>
+					<span style="width: 45%;">快递有限公司
+					</span>
+					<span style="width: 35%;">3214567
+					</span>
+					<span style="width: 10%;">30%
+					</span>
+				</li>
+				<li data-index="3" style="width: 100%; height: 47px; line-height: 47px; background-color: rgba(0, 0, 0, 0);">
+					<span>4
+					</span>
+					<span style="width: 45%;">快递有限公司
+					</span>
+					<span style="width: 35%;">3214567
+					</span>
+					<span style="width: 10%;">30%
+					</span>
+				</li>
+				<li data-index="4" style="width: 100%; height: 47px; line-height: 47px; background-color: rgba(0, 0, 0, 0);">
+					<span>5
+					</span>
+					<span style="width: 45%;">快递有限公司
+					</span>
+					<span style="width: 35%;">3214567
+					</span>
+					<span style="width: 10%;">30%
+					</span>
+				</li>
+				<li data-index="5" style="width: 100%; height: 47px; line-height: 47px; background-color: rgba(0, 0, 0, 0);">
+					<span>6
+					</span>
+					<span style="width: 45%;">快递有限公司
+					</span>
+					<span style="width: 35%;">3214567
+					</span>
+					<span style="width: 10%;">30%
+					</span>
+				</li>
+				<li data-index="6" style="width: 100%; height: 47px; line-height: 47px; background-color: rgba(0, 0, 0, 0);">
+					<span>7
+					</span>
+					<span style="width: 45%;">快递有限公司
+					</span>
+					<span style="width: 35%;">3214567
+					</span>
+					<span style="width: 10%;">30%
+					</span>
+				</li>
+				<li data-index="0" style="width: 100%; height: 47px; line-height: 47px; background-color: rgba(0, 0, 0, 0);">
+					<span>1
+					</span>
+					<span style="width: 45%;">快递有限公司
+					</span>
+					<span style="width: 35%;">3214567
+					</span>
+					<span style="width: 10%;">30%
+					</span>
+				</li>
+				<li data-index="1" style="width: 100%; height: 47px; line-height: 47px; background-color: rgba(0, 0, 0, 0);">
+					<span>2
+					</span>
+					<span style="width: 45%;">快递有限公司
+					</span>
+					<span style="width: 35%;">3214567
+					</span>
+					<span style="width: 10%;">30%
+					</span>
+				</li>
+			</ul>
+		</div>
+</div>

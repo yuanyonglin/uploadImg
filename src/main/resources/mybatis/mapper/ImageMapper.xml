@@ -4,19 +4,38 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.soyuan.uploadimg.mapper.ImageMapper">
-     <!--插入图片-->
-      <insert id="save" parameterType="com.soyuan.uploadimg.pojo.Image">
+    <!--插入图片-->
+    <insert id="save" parameterType="com.soyuan.uploadimg.pojo.Image">
           insert into image(id,ImageURL,ImageName,ImageDate,ImageOriginalName,ImageType) values (#{id},#{imageURL},#{imageName},#{imageDate},#{imageOriginalName},#{imageType})
       </insert>
 
-
-    <!--查询图片-->
-      <select id="queryAll" parameterType="string" resultType="string">
+    <!--查询图片
+    <select id="queryAll" parameterType="string" resultType="string">
           select ImageURL from image order by ImageDate desc
-      </select>
+      </select>-->
 
-      <select id="queryById" parameterType="com.soyuan.uploadimg.pojo.Image" resultType="com.soyuan.uploadimg.pojo.Image">
+    <!--根据id查询所有-->
+    <select id="queryById" parameterType="com.soyuan.uploadimg.pojo.Image" resultType="com.soyuan.uploadimg.pojo.Image">
           select * from image where id = #{id};
       </select>
 
+    <!--此方法用来更新imagetype-->
+    <update id="modifyImgType" parameterType="string">
+          update image set ImageType = #{imageType} where id = #{id}
+      </update>
+
+    <!--数据库根据ImageType查询图片路径并返回给前端，用作前端不同页面位置的展示。-->
+    <select id="queryByType" parameterType="string" resultType="com.soyuan.uploadimg.pojo.Image">
+          select id,ImageURL,ImageOriginalName,ImageDate from image where ImageType = #{imageType}
+    </select>
+
+    <!--数据库根据ImageDate查询图片路径并返回给前端，结果为近三天上传的图片。-->
+    <select id="queryByDate" resultType="com.soyuan.uploadimg.pojo.Image">
+          select ImageURL FROM image WHERE imageDate > DATE_SUB(NOW(),INTERVAL 3 DAY)
+    </select>
+
+    <!--根据id删除图片。-->
+    <delete id="deleteImageById" parameterType="string">
+          delete from image where id = #{id}
+    </delete>
 </mapper>

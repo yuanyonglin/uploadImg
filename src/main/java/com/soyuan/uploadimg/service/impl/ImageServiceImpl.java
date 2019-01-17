@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 
 /**
  * @ Author     ：yuanyl.
@@ -27,13 +29,36 @@ public class ImageServiceImpl implements ImageService {
     }
 
     @Override
-    public String queryAll() {
-        return imageMapper.queryAll();
+    public List<Image> queryAll() {
+        return imageMapper.selectList(null);
     }
 
     @Override
-    public Image queryById(Image image) {
-        return imageMapper.queryById(image);
+    public Image queryById(String id) {
+        return imageMapper.queryById(id);
     }
+
+    @Transactional(readOnly = false)
+    @Override
+    public void modifyImgType(String id,String imageType) {
+        imageMapper.modifyImgType(id,imageType);
+    }
+
+    @Override
+    public Image queryByType(String imageType) {
+        return imageMapper.queryByType(imageType);
+    }
+
+    @Override
+    public List<Image> queryByDate() {
+        return imageMapper.queryByDate();
+    }
+
+    @Transactional(readOnly = false)
+    @Override
+    public void deleteImageById(String id) {
+        imageMapper.deleteImageById(id);
+    }
+
 
 }
